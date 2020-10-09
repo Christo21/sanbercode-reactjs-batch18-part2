@@ -66,3 +66,47 @@ h1{
 .checkbox{
   margin-right: 10px;
 }
+
+table{
+  border: 2px solid black;
+  width: 100%;
+}
+
+tr {
+  border-top: 1px solid #000;
+}
+
+tr + tr {
+  border-top: 2px solid white;
+}
+
+td {
+  border-left: 1px solid #000;
+  background-color: lightsalmon;
+}
+
+td + td {
+  border-left: 2px solid white;
+} 
+
+.tugas10{
+  width: 50%;
+  margin: auto;
+}
+
+#header{
+  text-align: center;
+  background-color: lightgray;
+}
+
+#nama{
+  width: 50%;
+}
+
+#harga{
+  width: 25%;
+}
+
+#berat{
+  width: 25%;
+}
