@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import Forms from './Tugas-9/forms';
-import Table from './Tugas-10/table';
-import Timer from './Tugas-11/timer'
+// import Timer from './Tugas-9/forms1'
+// import Table from './Tugas-10/table';
+// import Timer from './Tugas-11/timer'
+import Forms from './Tugas-12/forms';
 
 function App() {
   return (
     <>
-    <Timer />
+    {/* <Timer /> */}
       <Forms />
-      <Table />
+      {/* <Table /> */}
     </>
   );
 }
