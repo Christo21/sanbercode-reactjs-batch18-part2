@@ -28,7 +28,7 @@ class Forms extends React.Component {
             inputNama: "",
             inputHarga: "",
             inputBerat: "",
-            index: ""
+            index: -1
         }
 
         this.handleEdit = this.handleEdit.bind(this)
@@ -121,18 +121,30 @@ class Forms extends React.Component {
         let newNama = event.target.nama.value
         let newHarga = event.target.harga.value
         let newBerat = event.target.berat.value
+        let newBuah = [...this.state.buah]
 
-        this.state.buah[this.state.index] = {
-            nama: newNama,
-            harga: newHarga,
-            berat: newBerat
+        console.log(this.state.index)
+
+        if(this.state.index < 0){
+            newBuah.push({
+                nama: newNama,
+                harga: newHarga,
+                berat: newBerat
+            })
+        } else {
+            newBuah[this.state.index] = {
+                nama: newNama,
+                harga: newHarga,
+                berat: newBerat
+            }
         }
 
         this.setState({
-            buah: this.state.buah,
+            buah: newBuah,
             inputNama: "",
             inputHarga: "",
-            inputBerat: ""
+            inputBerat: "",
+            index: -1
         })
     }
 
