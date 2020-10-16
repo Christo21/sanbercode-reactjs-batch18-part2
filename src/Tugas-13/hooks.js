@@ -13,7 +13,7 @@ const Detail = (props) => {
     );
 }
 
-const Forms = () => {
+const Hooks = () => {
     const [fruit, setFruit] = useState([])
     const [inputId, setInputId] = useState("")
     const [inputName, setInputName] = useState("")
@@ -165,4 +165,4 @@ const Forms = () => {
     );
 }
 
-export default Forms;
+export default Hooks;

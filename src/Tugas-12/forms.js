@@ -12,7 +12,6 @@ class Detail extends React.Component {
     }
 }
 
-
 class Forms extends React.Component {
     constructor(props) {
         super(props)

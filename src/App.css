@@ -111,3 +111,28 @@ td + td {
 #berat{
   width: 25%;
 }
+
+.nav{
+	list-style-type: none;
+	margin: 0 0 30px 0;
+	padding: 0;
+	overflow: hidden;
+  background-color: white;
+}
+
+.nav li{
+  float: left;
+  margin: auto;
+}
+
+.link {
+	display: block;
+	color: rgb(2, 2, 2);
+	text-align: center;
+	padding: 30px 50px;
+	text-decoration: none;
+}
+
+.link:hover {
+	background-color: gray;
+}

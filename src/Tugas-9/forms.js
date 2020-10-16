@@ -1,6 +1,6 @@
 import React from "react";
 
-class Forms extends React.Component {
+class FruitForms extends React.Component {
     render() {
         return (
             <div className="App">
@@ -14,15 +14,15 @@ class Forms extends React.Component {
                         <div className="label"><b>Daftar Item</b></div>
                         <div className="field">
                             <input type="checkbox" className="checkbox" name="semangka" value="Semangka" />
-                            <label for="semangka"> Semangka</label><br />
+                            <label htmlFor="semangka"> Semangka</label><br />
                             <input type="checkbox" className="checkbox" name="jeruk" value="Jeruk" />
-                            <label for="jeruk"> Jeruk</label><br />
+                            <label htmlFor="jeruk"> Jeruk</label><br />
                             <input type="checkbox" className="checkbox" name="nanas" value="Nanas" />
-                            <label for="nanas"> Nanas</label><br />
+                            <label htmlFor="nanas"> Nanas</label><br />
                             <input type="checkbox" className="checkbox" name="salak" value="Salak" />
-                            <label for="salak"> Salak</label><br />
+                            <label htmlFor="salak"> Salak</label><br />
                             <input type="checkbox" className="checkbox" name="anggur" value="Anggur" />
-                            <label for="anggur"> Anggur</label>
+                            <label htmlFor="anggur"> Anggur</label>
                         </div>
                     </div>
 
@@ -32,4 +32,4 @@ class Forms extends React.Component {
     }
 }
 
-export default Forms;
+export default FruitForms;

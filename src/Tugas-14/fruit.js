@@ -8,6 +8,7 @@ const Fruit = () => {
         <div className="App">
             <FruitProvider>
                 <FruitTable />
+                <br/>
                 <FruitForms />
             </FruitProvider>
         </div>

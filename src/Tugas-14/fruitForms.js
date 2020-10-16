@@ -72,7 +72,7 @@ const FruitForms = () => {
                     }
                 }))
             })
-    }, [fruit])
+    }, [fruit, setFruit])
 
     return (
         <form style={{ textAlign: "center" }} onSubmit={handleSubmit}>
